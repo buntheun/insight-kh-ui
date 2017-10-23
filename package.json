@@ -1,8 +1,45 @@
 {
-  "name": "insight-kh-ui",
-  "description": "An open-source frontend for the Insight API. The Insight API provides you with a convenient, powerful and simple way to query and broadcast data on the khcoin network and build your own services with it.",
-  "version": "0.4.6",
-  "repository": "git://github.com/inmean/insight-kh-ui.git",
+  "_args": [
+    [
+      "insight-kh-ui@^0.4.7",
+      "/home/inmean/khcore"
+    ]
+  ],
+  "_from": "insight-kh-ui@>=0.4.7 <0.5.0",
+  "_id": "insight-kh-ui@0.4.7",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/insight-kh-ui",
+  "_nodeVersion": "4.2.6",
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/insight-kh-ui-0.4.7.tgz_1508604942055_0.5729718224611133"
+  },
+  "_npmUser": {
+    "email": "inmean@khmercrypto.com",
+    "name": "inmean"
+  },
+  "_npmVersion": "3.5.2",
+  "_phantomChildren": {},
+  "_requested": {
+    "name": "insight-kh-ui",
+    "raw": "insight-kh-ui@^0.4.7",
+    "rawSpec": "^0.4.7",
+    "scope": null,
+    "spec": ">=0.4.7 <0.5.0",
+    "type": "range"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_shasum": "ac201f3be4be32b400f8c5632369e399fa1ad62d",
+  "_shrinkwrap": null,
+  "_spec": "insight-kh-ui@^0.4.7",
+  "_where": "/home/inmean/khcore",
+  "bitcoreNode": "khcore-node",
+  "bugs": {
+    "url": "https://github.com/bitpay/insight-ui/issues"
+  },
   "contributors": [
     {
       "name": "Matias Alejo Garcia",
@@ -25,32 +62,50 @@
       "email": "bechilandia@gmail.com"
     }
   ],
-  "bugs": {
-    "url": "https://github.com/bitpay/insight-ui/issues"
-  },
-  "homepage": "https://github.com/inmean/insight-kh-ui",
-  "license": "MIT",
-  "keywords": [
-    "insight",
-    "blockchain",
-    "blockexplorer",
-    "khcoin",
-    "khcore",
-    "front-end"
-  ],
-  "bitcoreNode": "khcore-node",
   "dependencies": {},
+  "description": "An open-source frontend for the Insight API. The Insight API provides you with a convenient, powerful and simple way to query and broadcast data on the khcoin network and build your own services with it.",
   "devDependencies": {
     "bower": "~1.2.8",
     "grunt": "~0.4.2",
+    "grunt-angular-gettext": "^0.2.15",
     "grunt-cli": "~0.1.11",
-    "grunt-contrib-jshint": "~0.8.0",
     "grunt-contrib-concat": "~0.3.0",
+    "grunt-contrib-jshint": "~0.8.0",
     "grunt-contrib-uglify": "~0.3.2",
     "grunt-contrib-watch": "*",
-    "grunt-macreload": "*",
     "grunt-css": "~0.5.4",
-    "grunt-markdown": "~0.5.0",
-    "grunt-angular-gettext": "^0.2.15"
-  }
+    "grunt-macreload": "*",
+    "grunt-markdown": "~0.5.0"
+  },
+  "directories": {},
+  "dist": {
+    "shasum": "ac201f3be4be32b400f8c5632369e399fa1ad62d",
+    "tarball": "https://registry.npmjs.org/insight-kh-ui/-/insight-kh-ui-0.4.7.tgz"
+  },
+  "gitHead": "4b76051983bf6f0ad3686eaae3eba53588ef2298",
+  "homepage": "https://github.com/inmean/insight-kh-ui",
+  "keywords": [
+    "blockchain",
+    "blockexplorer",
+    "front-end",
+    "insight",
+    "khcoin",
+    "khcore"
+  ],
+  "license": "MIT",
+  "maintainers": [
+    {
+      "name": "inmean",
+      "email": "inmean@khmercrypto.com"
+    }
+  ],
+  "name": "insight-kh-ui",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/inmean/insight-kh-ui.git"
+  },
+  "scripts": {},
+  "version": "0.4.7"
 }
